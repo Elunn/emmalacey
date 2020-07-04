@@ -1,0 +1,79 @@
+
+/*home svg*/
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#welcome {
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+svg {
+	width: 100%;
+	min-width: 250px;
+	height: auto;
+}
+
+.st0{
+	fill:#808080;
+}
+.st1{
+	fill:#36E4FF;
+}
+.st2{
+	enable-background:new;
+}
+.st3{
+	fill:#15E4FF;
+}
+
+#icons_big {
+	display: none;
+}
+
+#emma_big {
+	display: none;
+}
+
+#icons_small {
+	display: block;
+}
+
+#emma_small {
+	display: block;
+}
+
+@media all and (min-width: 770px) {
+	
+	#welcome {
+		width: 50%;
+	}
+	
+	#icons_small {
+		display: none;
+	}
+	
+	#emma_small {
+		display: none;
+	}
+	
+	#icons_big {
+		display: block;
+	}
+	
+	#emma_big {
+		display: block;
+	}
+}
